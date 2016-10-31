@@ -1,0 +1,19 @@
+<h1>All of our Coffees</h1>
+<div class="row">
+<% @cafes.each do |cafe| %>
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="<%= cafe.image %>">
+      <div class="caption">
+        <h3><%= cafe.name %></h3>
+        <h3>Cost: $<%= cafe.cost %></h3>
+        <%= link_to "More Info", cafe, class: "btn btn-default" %>
+      </div>
+    </div>
+  </div>
+  <% end %>
+</div>
+
+<br>
+
+<%= link_to 'New Cafe', new_cafe_path %>

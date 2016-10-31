@@ -1,0 +1,31 @@
+### Backroom
+
+PRODUCTS
+Name
+Description
+Quantity
+Price
+Image
+Brand
+
+CATEGORIES
+Name
+
+### STOREFRONT
+
+All_items
+Items_by_Caegory
+Items_by_Brand
+
+### CART
+
+LINE ITEMS
+product_id
+quantity
+order_id
+
+ORDER
+sub_total
+sales_tax
+grand_total
+user_id

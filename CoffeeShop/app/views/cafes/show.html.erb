@@ -1,0 +1,10 @@
+<div class="jumbotron">
+  <center>
+    <h1><%= @cafe.name %></h1>
+    <img src="<%= @cafe.image %>">
+  </center>
+  <h3>Cost: $<%= @cafe.cost %></h3>
+</div>
+
+<%= link_to 'Edit', edit_cafe_path(@cafe) %> |
+<%= link_to 'Back', cafes_path %>
